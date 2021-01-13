@@ -9,12 +9,12 @@
     color: #363958;
 }
 
-/* modify woman jacket area */
-.woman-card {
+/* modify woman and man jacket area */
+.wm-card {
     border: 0;
 }
 
-.woman-card-footer {
+.wm-card-footer {
     background-color: white;
     border: 0;
 }
