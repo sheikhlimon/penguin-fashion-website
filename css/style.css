@@ -9,4 +9,13 @@
     color: #363958;
 }
 
+/* modify woman jacket area */
+.woman-card {
+    border: 0;
+}
+
+.woman-card-footer {
+    background-color: white;
+    border: 0;
+}
 
