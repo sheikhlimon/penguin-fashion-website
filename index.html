@@ -18,12 +18,12 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" width="290px" height="40px"></a>
+                <a class="navbar-brand col-sm-4" href="#"><img src="images/logo.png" alt="logo" style="width: 250px; height: 50px;"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-sm-md-flex justify-content-end" id="navbarNav">
+                <div class="collapse navbar-collapse d-sm-flex justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link bold text-body" href="#">Home</a>
@@ -32,10 +32,10 @@
                             <a class="nav-link bold text-body" href="#product">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link bold text-body" href="#">About us</a>
+                            <a class="nav-link bold text-body" href="#aboutus">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link bold text-body" href="#">Contact us</a>
+                            <a class="nav-link bold text-body" href="#contactus">Contact us</a>
                         </li>
                     </ul>
                 </div>
@@ -64,7 +64,7 @@
             <h3 class="text-uppercase fw-bold">Woman Jacket</h3>
             <div class="row row-cols-1 row-cols-md-3 mt-5 g-4">
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 w-80 shadow">
                         <img src="images/wc1.png" class="card-img-top" alt="..." width="230px" height="300px">
                         <div class="card-body">
                             <h5 class="card-title">Yellow Coat Jacket</h5>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 w-80 shadow">
                         <img src="images/wc2.png" class="card-img-top" alt="..." width="230px" height="300px">
                         <div class="card-body">
                             <h5 class="card-title">Ladies Jacket</h5>
@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 w-80 shadow">
                         <img src="images/wc3.png" class="card-img-top" alt="..." width="230px" height="300px">
                         <div class="card-body">
                             <h5 class="card-title">Woman Leather Jacket</h5>
@@ -121,7 +121,7 @@
             <h3 class="text-uppercase fw-bold">Man Jacket</h3>
             <div class="row row-cols-1 row-cols-md-3 mt-5 g-4">
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 w-80 shadow">
                         <img src="images/mc1.png" class="card-img-top" alt="..." width="230px" height="300px">
                         <div class="card-body">
                             <h5 class="card-title">Snowboard Jacket Mens</h5>
@@ -138,7 +138,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 w-80 shadow">
                         <img src="images/mc2.png" class="card-img-top" alt="..." width="230px" height="300px">
                         <div class="card-body">
                             <h5 class="card-title">Man Leather Jackets</h5>
@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 w-80 shadow">
                         <img src="images/mc3.png" class="card-img-top" alt="..." width="230px" height="300px">
                         <div class="card-body">
                             <h5 class="card-title">Man Casual Jackets</h5>
@@ -174,9 +174,9 @@
             </div>
         </section>
         <!-- about us area -->
-        <section class="container">
+        <section id="aboutus" class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-sm-6 text-center">
                         <div class="card mb-3 mt-5" style="max-width: 50rem;">
                             <div class="row g-0">
                                 <div class="col-sm-4">
@@ -217,15 +217,46 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 d-flex align-items-center">
-                        <div class="col-6">
-                            <img src="images/XMLID 1.png" alt="" width="500rem" height="300rem">
-                        </div>
+                    <div class="col-sm-6 d-flex align-items-center mt-5">
+                            <img src="images/XMLID 1.png" alt="" width="100%" height="auto" class="">
                     </div>
                 </div>
         </section>
+        <!-- contact us area  -->
+        <section id="contactus" class="container mt-5">
+            <div class="row bg-secondary rounded">
+                  <div class="col-sm-4">
+                      <h4 class="ms-4">Information</h4>
+                      <ul class="mt-1 list-unstyled text-light">
+                        <li><a class="nav-link bold text-body" href="#">About Us</a></li>
+                        <li><a class="nav-link bold text-body" href="#">Contact Us</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-4">
+                      <h4 class="ms-4">Customer Service</h4>
+                      <ul class="nav mt-1 list-unstyled">
+                          <li><a class="nav-link bold text-body" href="#">Security Policy</a></li>
+                          <li><a class="nav-link bold text-body" href="#">Orders, Stock Availability & Pricing</a></li>
+                          <li><a class="nav-link bold text-body" href="#">Shipping & Replacement</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-4">
+                      <h4 class="ms-4">My Account</h4>
+                      <ul class="mt-1 list-unstyled">
+                          <li><a class="nav-link bold text-body" href="#">Customer info</a></li>
+                          <li><a class="nav-link bold text-body" href="#">Addresses</a></li>
+                          <li><a class="nav-link bold text-body" href="#">Orders</a></li>
+                          <li><a class="nav-link bold text-body" href="#">Shopping cart</a></li>
+                          <li><a class="nav-link bold text-body" href="#">Wishlist</a></li>
+                          <li><a class="nav-link bold text-body" href="#">Compare products list</a></li>
+                      </ul>
+                  </div>
+            </div>
+        </section>
     </main>
-
+    <footer class="text-center mt-5">
+        <small>&copy; 2021 Penguin Fashion. All rights reserved.</small>
+    </footer>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
