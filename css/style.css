@@ -9,10 +9,6 @@
     color: #363958;
 }
 
-.inside-shadow {
-    box-shadow: inset 0px 0px 30px 30px rgba(0, 0, 0, 0.5);
-}
-
 /* clothes img background for man*/
 .clothes-bg {
     background-color: rgb(243, 243, 243);
